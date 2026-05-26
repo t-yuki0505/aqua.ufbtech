@@ -1,0 +1,72 @@
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[redirects]]
+  from = "/ufb-dual"
+  to = "/ufb-dual.html"
+  status = 200
+
+[[redirects]]
+  from = "/land-aquaculture"
+  to = "/land-aquaculture.html"
+  status = 200
+
+[[redirects]]
+  from = "/fishery-aquaculture"
+  to = "/fishery-aquaculture.html"
+  status = 200
+
+[[redirects]]
+  from = "/fishery-facility"
+  to = "/fishery-facility.html"
+  status = 200
+
+[[redirects]]
+  from = "/processing"
+  to = "/processing.html"
+  status = 200
+
+[[redirects]]
+  from = "/compare"
+  to = "/compare.html"
+  status = 200
+
+[[redirects]]
+  from = "/cases"
+  to = "/cases.html"
+  status = 200
+
+[[redirects]]
+  from = "/column"
+  to = "/column.html"
+  status = 200
+
+[[redirects]]
+  from = "/about"
+  to = "/about.html"
+  status = 200
+
+[[redirects]]
+  from = "/contact"
+  to = "/contact.html"
+  status = 200
+
+[[redirects]]
+  from = "/thanks"
+  to = "/thanks.html"
+  status = 200
